@@ -1,3 +1,8 @@
+
+A sample image
+
+![](snake_ladders_demo.png)
+
 Output on one run:
 
 Input:
