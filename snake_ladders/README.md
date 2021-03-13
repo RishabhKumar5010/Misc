@@ -48,7 +48,7 @@ Snakes : 47 16\
 Snakes : 28 10\
 Snakes : 75 32\
 Snakes : 94 71\
-Snakes : 96 42\
+Snakes : 96 42
 
 Output:
 
