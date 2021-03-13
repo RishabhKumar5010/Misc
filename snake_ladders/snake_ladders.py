@@ -26,7 +26,7 @@ def quickestWayUp(ladders, snakes):
         return no_moves
     global min_moves
     global didit
-    min_moves = demorun()   # aka maximum iteration
+    min_moves = demorun()   # aka maximum recursion level
     didit = False
     def player_bot(at,moves_log):
         global min_moves
