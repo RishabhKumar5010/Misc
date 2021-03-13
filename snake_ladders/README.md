@@ -54,3 +54,14 @@ Output:
 
 > Min-moves : 6\
 1 -> 7 -> 50 -> 88 -> 93 -> 99 -> 100
+
+Explaination of the output:
+
+The first die roll will be **6**, bot will go from `1` to `7`
+The second die roll will be **5**, bot will go from `7` to `12` , and a ladder from `12` leads to `50`
+The third die roll will be **4**, bot will go from `50` to `54`, and a ladder from `54` leads to `88`
+The fourth die roll will be **5**, bot will go to `93`. (It doesn't roll a **6**, as there is a snake on `94`)
+The fifth die roll will be **6**, bot will go to `99`.
+The sixth die roll will be **1**, bot will reach `100`.
+
+Now there could be other solution with 6 moves, the solution covers them, but doesn't print them. The program can be tweaked a little bit to print all the solutions.
