@@ -64,4 +64,4 @@ The fourth die roll will be **5**, bot will go to `93`. (It doesn't roll a **6**
 The fifth die roll will be **6**, bot will go to `99`.\
 The sixth die roll will be **1**, bot will reach `100`.
 
-Now there could be other solutions with 6 moves, the solution covers them, but doesn't print them. The program can be tweaked a little bit to print all the solutions.
+Now there could be other solutions with 6 moves, the program covers them, but doesn't print them. The program can be tweaked a little bit to print all the solutions.
