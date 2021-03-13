@@ -22,7 +22,7 @@ to memory optimisation problems.
 In the quora article the problem is handled by use of a quick sort logic, with just some iterations, and some swaps the kth largest element reaches kth position 
 in the array. Cool!!.\
 But, It still requires one to create two copies of the array, if data and order of the original array is to be preserved. \
-There are other methods using min and map heap whose time complexities are in order of **O(n + kLogn)** , but they too need 2 instances of array.
+There are other methods using min and max heap whose time complexities are in order of **O(n + kLogn)** , but they too need 2 instances of array.
 
 https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
 
@@ -68,7 +68,7 @@ to 4 (5th iteration); but we were supposed to do only k, i.e. 3 iteration, so lo
 
 This is a short simple algorithm to understand, alter, upgrade or copy-paste in your code.
 
-**It calculates, the kth largest element in an array without creating a new instance of the array, and is quite optimised for repeatating elements**
+**It calculates, the kth largest element in an array without creating a new instance of the array, and is quite optimised for repeating elements**
 
 This code's performance in itself could be improved further, by using a linked list to store the array\
 and merging the repeatation optimisation step right into the inner loop.
