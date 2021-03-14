@@ -24,7 +24,7 @@ This question was placed under graph theory sub-section. However, the question b
 
 **Highlights**
 * The best thing about this solution is that as more iterations happen, the recursion gets further optimised.
-* The `next6` function also significantly contributes to optimisation, by eliminating about **75%** of combinations of moves, this approach lacks in BST solutions and other solutions that I came across.
+* The `next6` function also significantly contributes to optimisation, by eliminating about **75%** of combinations of moves. This approach lacks in BST solutions and other solutions that I came across.
 
 A sample Snake and Ladders game board.
 
