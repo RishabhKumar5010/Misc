@@ -8,9 +8,9 @@ This cpp code finds Kth Largest Element **without sorting** the given numeric ar
 
 While checking out my mails I found this Quora Suggested Spaces article saying
 
-*"Can you find Kth Largest Element in an array without sorting the whole array?"*
+[*"Can you find Kth Largest Element in an array without sorting the whole array?"*](https://qr.ae/pNqkqC)
 
-https://qr.ae/pNqkqC
+
 
 It didn't took a sec to grab my attention, cause previously I have done this problem. But I did it in python where I could just pop off the element
 that I already looked at to be the current maximum. And then eventually I find in the kth iteration the largest element in it.\
@@ -22,9 +22,8 @@ to memory optimisation problems.
 In the quora article the problem is handled by use of a quick sort logic, with just some iterations, and some swaps the kth largest element reaches kth position 
 in the array. Cool!!.\
 But, It still requires one to create two copies of the array, if data and order of the original array is to be preserved. \
-There are other methods using min and max heap whose time complexities are in order of **O(n + kLogn)** , but they too need 2 instances of array.
+There are other methods using [min and max heap](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/) whose time complexities are in order of **O(n + kLogn)** , but they too need 2 instances of array.
 
-https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
 
 Now these approaches are great for time complexity of a computer, but not so much for time a human would take to understand these approaches.
 **Also these algorithms are not optimised for repeatating elements.**
