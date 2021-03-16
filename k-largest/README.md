@@ -41,7 +41,7 @@ Get it??\
 so lets say in 1st iteration maximum is found to be 12.\
 in the next iteration this 12 will be remembered and next maximum 11 would be found which is less than previous max 12.
 
-Now obviously to find maximum in unsorted array the best and most reliable way is our trusty linear search and compare.\
+Now to find maximum in unsorted array the best and most reliable way is our trusty linear search and compare.\
 which would take **n** iterations.
 
 And so, the **time complexity of O(k.n) in worst case**. \
