@@ -51,15 +51,26 @@ def twoTwo(a):
     
             
 if __name__ == '__main__':
-    t = 10
-    fil = open('test.txt')
-    inp = fil.read()
-    fil.close()
-    inp = inp.split()
+    
+    fromFile = False     #flick to True to accept inputs from text file.
+    
+    if fromFile:
+        t = 10    # no. of testcases in default file
+        fil = open('test.txt') # default file name
+        inp = fil.read()
+        fil.close()
+        inp = inp.split()
+    else:
+        inp = []
+        t = int(input('Enter number of testcases : '))
+        for i in range(t):
+            inp.append(input())
+        
     result = []
     for t_itr in inp:
         a = t_itr
         result.append(twoTwo(a))
+    print('Powers of 2, substring count in input order:')
     print('\n'.join(list(map(str,result))))
 
 
