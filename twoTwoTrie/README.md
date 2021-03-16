@@ -75,11 +75,11 @@ The size of the input string (n) considered here is just 6 for this simulation, 
 The 7 substrings that the program points to are:
 
 ```
-* `1`   x 1  pow(2,0)     +1
-* `2`   x 3  pow(2,1)     +3
-* `8`   x 1  pow(2,3)     +1
-* `32`  x 1  pow(2,5)     +1
-* `128` x 1  pow(2,7)     +1
+* '1'   x 1  pow(2,0)     +1
+* '2'   x 3  pow(2,1)     +3
+* '8'   x 1  pow(2,3)     +1
+* '32'  x 1  pow(2,5)     +1
+* '128' x 1  pow(2,7)     +1
                         ------
                            7
 ```                           
