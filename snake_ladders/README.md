@@ -1,6 +1,6 @@
 This is my attempt on a practice question at hackerrank:
 
-## Question
+## [Question](https://www.hackerrank.com/challenges/the-quickest-way-up/problem)
 
 ### Snakes and Ladders: The Quickest Way Up
 
