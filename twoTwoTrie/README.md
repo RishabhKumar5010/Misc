@@ -91,4 +91,4 @@ This was not one of them. Fhew..!!
 
 ### Credits
 
-* Thanks to [idlecool](https://www.hackerrank.com/profile/idlecool), for creating this problem statement on [hackerrank](https://www.hackerrank.com)
+* Thanks to [Amit Pandey](https://www.hackerrank.com/profile/amititkgp), for creating this problem statement on [hackerrank](https://www.hackerrank.com)
